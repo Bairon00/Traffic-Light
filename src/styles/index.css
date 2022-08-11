@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo{
+    background: black;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+    }
+
+.luz{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.rojo{
+    background: red;
+}
+.amarillo{
+    background:yellow;
+    
+}
+.verde{
+    background:rgb(9, 168, 9);
+}
+.encendido{
+    box-shadow: 0px 0px 15px 10px rgb(245, 236, 67);
+}
+.encendido1{
+    box-shadow: 0px 0px 15px 10px rgb(230, 31, 31);
+}.encendido2{
+    box-shadow: 0px 0px 15px 10px rgb(41, 231, 24);
+}
